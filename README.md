@@ -52,8 +52,8 @@ The MOSFETs chosen are low-loss N-Channel devices. The final parts chosen are fr
 #### Diodes
 The diodes for the full-bridge rectifier were chosen again for as low of loss as possible. Really, the low voltage and high current environment is probably better suited for active rectification, but to keep things simple passive rectification was chosen. The best diodes for this are schottky due to their low forward voltage. The final parts chosen are from ON Semi and sourced from Digi-Key, PN FSV12100VCT-ND. A few different diode models were selected and simulated in the final circuit, and this model ended up producing the lowest loss. 
 
-#### MicroController
-The chosen microcontroller is the SAMD21G18A, PN ATSAMD21G18A-MF-ND. This is the same microcontroller that is in the Arduino Zero dev board, and our senior design team already readily knew how to program and flash it. Perhaps someone could modify this design and retrofit a more popular microcontroller like an STM32.
+#### Micro Controller
+The chosen microcontroller is the SAMD21G18A, PN ATSAMD21G18A-MF-ND. This is the same microcontroller that is on the Arduino Zero dev board, and our senior design team already knew how to easily program and flash it. Perhaps someone could modify this design and retrofit a more popular microcontroller, like an STM32.
 
 ## Software
 The current software developed for this project is the embedded code on the TX board's SAMD21 microcontroller. Code was developed using the Arduino IDE for simplicity. A .bin file was generated and then uploaded to the microcontroller using a J-Link EDU programmer. The code is about as simple as it gets, just generating a 50% duty cycle, 100kHz PWM signal. No feedback is incorporated since it is assumed that there is no communication between TX and RX boards in the original underwater application. 
