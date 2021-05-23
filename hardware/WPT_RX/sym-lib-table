@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WPT_RX)(type Legacy)(uri ${KIPRJMOD}/WPT_RX.lib)(options "")(descr ""))
+)

@@ -1,0 +1,34 @@
+Circuit: * D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\AC Analysis.asc
+
+C7: Increased Cpar to 3.8e-013
+C6: Increased Cpar to 3.8e-013
+C5: Increased Cpar to 3.8e-013
+C4: Increased Cpar to 3.8e-013
+C3: Increased Cpar to 3.8e-013
+C2: Increased Cpar to 3.8e-013
+C1: Increased Cpar to 3.8e-013
+.step k=0.1
+.step k=0.2
+.step k=0.3
+.step k=0.4
+.step k=0.5
+.step k=0.6
+.step k=0.7
+.step k=0.8
+.step k=0.9
+
+Date: Tue Oct 27 23:15:21 2020
+Total elapsed time: 0.956 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 24
+fillins = 4
+solver = Normal
+

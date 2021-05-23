@@ -1,0 +1,78 @@
+17659484538042
+WPT_TX
+70553-02
+<b>2.54mm Pitch SL™ Header, Low Profile, Single Row, Right Angle, 3.05mm Pocket, Shrouded, 3 Circuits, 0.38µm Gold (Au) Selective Plating, Tin (Sn) PC Tail Plating</b><p><a href =http://www.molex.com/pdm_docs/sd/705530002_sd.pdf>Datasheet </a>
+
+0
+2
+2
+WPT_TX
+70553-03
+<b>2.54mm Pitch SL™ Header, Low Profile, Single Row, Right Angle, 3.05mm Pocket, Shrouded, 4 Circuits, 0.38µm Gold (Au) Selective Plating, Tin (Sn) PC Tail Plating</b><p><a href =http://www.molex.com/pdm_docs/sd/705530003_sd.pdf>Datasheet </a>
+
+0
+3
+3
+WPT_TX
+Crystal_SMD_3215-2pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+WPT_TX
+LM5106SD
+
+
+0
+11
+11
+WPT_TX
+MUNLOGO
+
+
+0
+0
+0
+WPT_TX
+NetTie-2_SMD_Pad0.25mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
+WPT_TX
+OSCCC320X250
+
+
+0
+4
+3
+WPT_TX
+R_2512_Sense
+Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2512
+0
+2
+2
+WPT_TX
+SMA_Amphenol_901-144_Vertical
+https://www.amphenolrf.com/downloads/dl/file/id/7023/product/3103/901_144_customer_drawing.pdf
+SMA THT Female Jack Vertical
+0
+5
+2
+WPT_TX
+SolderWirePad_single_SMD_5x10mm
+Wire Pad, Square, SMD Pad,  5mm x 10mm,
+MesurementPoint Square SMDPad 5mmx10mm 
+0
+1
+1
+WPT_TX
+TDSON-8-1
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+tdson 
+0
+9
+3

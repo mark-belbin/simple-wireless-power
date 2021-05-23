@@ -1,0 +1,59 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4 C5 C9 C11 C14 C16 C17 C18 C19 C20 C25 C31 C33,0.1u,C_0603_1608Metric,16,~,1276-1941-1-ND 1276-1258-1-ND
+2,"Unpolarized capacitor, small symbol",C_Small,C21 C30,0.47u,C_0805,2,~,478-10438-1-ND
+3,"Unpolarized capacitor, small symbol",C_Small,C26 C27 C28 C29,100n,C_2220,4,~,490-16696-1-ND
+4,"Unpolarized capacitor, small symbol",C_Small,C15,10u,C_0603_1608Metric,1,~,490-7201-1-ND
+5,"Unpolarized capacitor, small symbol",C_Small,C6 C7 C8,10u,C_1206,3,~,1276-6767-1-ND
+6,"Unpolarized capacitor, small symbol",C_Small,C10 C12 C13 C22 C23,22p,C_0603_1608Metric,5,~,720-VJ0603A220JXBACCT-ND
+7,"Unpolarized capacitor, small symbol",C_Small,C24 C32,33n,C_0805,2,~,445-172691-1-ND
+8,Light emitting diode,LED,D3 D4,BLUE,LED_0805_2012Metric,2,~,160-1579-1-ND
+9,Schottky diode,D_Schottky,D7 D8,D_Schottky,D_SMA,2,~,SS16T3GOSCT-ND
+10,Light emitting diode,LED,D1 D9,GREEN,LED_0805_2012Metric,2,~,160-1423-1-ND
+11,Light emitting diode,LED,D2 D6,ORANGE,LED_0805_2012Metric,2,~,160-1413-1-ND
+12,Light emitting diode,LED,D5,RED,LED_0805_2012Metric,1,~,475-1415-1-ND
+13,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1,FB,L_0805_2012Metric,1,~,490-9706-1-ND
+14,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x01,J1 J2 J9 J10,Conn_01x01,SolderWirePad_single_SMD_5x10mm,4,~,
+15,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J7,Conn_01x03,70553-03,1,~,WM4154-ND
+16,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J8,Conn_01x04,70553-02,1,~,WM4900-ND
+17,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J6,Conn_02x05_Odd_Even,Pin_Header_Straight_2x05_Pitch1.27mm,1,~,1175-1627-ND
+18,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3 J4 J5,Conn_Coaxial,SMA_Amphenol_901-144_Vertical,3, ~,WM17068-ND
+19,"Net tie, 2 pins",Net-Tie_2,NT1 NT2,Net-Tie_2,NetTie-2_SMD_Pad0.25mm,2,~,
+20,"N-MOSFET transistor, source/gate/drain",Q_NMOS_SGD,Q1 Q2 Q3 Q4,NMOS,TDSON-8-1,4,https://www.infineon.com/dgdl/Infineon-IAUC70N08S5N074-DS-v01_00-EN.pdf?fileId=5546d46266a498f50166a531f6aa0013,448-IAUC70N08S5N074ATMA1CT-ND
+21,"Resistor, US symbol",R_US,R8,0.005,R_2512_Sense,1,~,YAG6124CT-ND
+22,"Resistor, US symbol",R_US,R3 R7 R10 R11 R12 R13 R18 R21 R22 R23 R24 R26,10k,R_0603_1608Metric,12,~,RHM10KDCT-ND
+23,"Resistor, US symbol",R_US,R25,120,R_0603_1608Metric,1,~,P120BYTR-ND
+24,"Resistor, US symbol",R_US,R9 R14 R16 R20,1k,R_0603_1608Metric,4,~,RHM1.0KDCT-ND
+25,"Resistor, US symbol",R_US,R1 R15,2k,R_0603_1608Metric,2,~,541-2790-1-ND
+26,"Resistor, US symbol",R_US,R4,330,R_0603_1608Metric,1,~,RHM330DCT-ND
+27,"Resistor, US symbol",R_US,R6 R17 R19,680,R_0603_1608Metric,3,~,RHM680DCT-ND
+28,"Resistor, US symbol",R_US,R2 R5,79.6k,R_0603_1608Metric,2,~,13-RT0603BRD0779K6LCT-ND
+29,IC MCU 32BIT 64KB FLASH 48QFN,ATSAMD21G16B-MFT,U9,ATSAMD21G16B-MFT,TQFP-48_7x7mm,1,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590209,ATSAMD21G18A-MF-ND
+30,,BTS6142DAUMA1,U7,BTS6142DAUMA1,TO-252-4,1,https://www.infineon.com/dgdl/Infineon-BTS6142D-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa3da1e0e1026,BTS6142DAUMA1CT-ND
+31,,CD4043BDR,U6,CD4043BDR,SOIC-16_3.9x9.9mm_Pitch1.27mm,1,,296-31496-1-ND
+32,"High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8",INA240A1D,U1,INA240A1D,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.ti.com/lit/ds/symlink/ina240.pdf,296-48837-ND
+33,"50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 5.0V fixed output, TO-252/SOT-223",LM2936-5.0,U3,LM2936-5.0,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm2936.pdf,296-37374-1-ND
+34,"500-mA Low Dropout Regulator, SOT-223",LM2937xMP,U4,LM2937IMP-12,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm2937.pdf,LM2937IMP-12/NOPBCT-ND
+35,"500-mA Low Dropout Regulator, SOT-223",LM2937xMP,U2,LM2937IMP-3.3,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm2937.pdf,LM2937IMPX-3.3/NOPBCT-ND
+36,,LM5106SD_NOPB,U10 U13,LM5106,LM5106SD,2,,LM5106SD/NOPBCT-ND
+37,"Precision CMOS Dual Operational Amplifier, DIP-8/SOIC-8",LMC6082,U5,LMC6032,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://www.ti.com/lit/ds/symlink/lmc6082.pdf,296-49646-1-ND
+38,,MCP2515-QFN20,U11,MCP2515-QFN20,TSSOP-20_4.4x6.5mm_P0.65mm,1,,MCP2515-E/ML-ND
+39,"High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN-8",MCP2562-E-MF,U12,MCP2562-E-MF,DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf,MCP2562-E/MF-ND
+40,"Single Schmitt-Trigger Inverter, SOT-23",SN74LVC1G14DBV,U8,SN74LVC1G14DBV,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf,296-35944-1-ND
+41,Two pin crystal,Crystal,Y1,32.7680kHz,Crystal_SMD_3215-2pin_3.2x1.5mm,1,~,887-2605-1-ND
+42,"Three pin crystal, GND on pin 2, small symbol",Crystal_GND2_Small,Y2,8MHz,OSCCC320X250,1,~,2151-RH100-8.000-20-3050-EXT-TRCT-ND
+
+
+
+
+
+Component Groups:,42
+Component Count:,100
+Fitted Components:,100
+Number of PCBs:,1
+Total components:,100
+Schematic Version:,001
+Schematic Date:,2020-11-08
+PCB Variant:,[u'default']
+BoM Date:,2020-11-08 10:35:57 PM
+Schematic Source:,D:\AUV Capstone\AUV-Senior-Design\Mark\WPT_TX\WPT_TX.sch
+KiCad Version:,Eeschema (5.1.8)-1

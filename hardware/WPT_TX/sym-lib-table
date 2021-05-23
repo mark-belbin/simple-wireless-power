@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name WPT_TX)(type Legacy)(uri ${KIPRJMOD}/WPT_TX.lib)(options "")(descr ""))
+  (lib (name mcp2515-qfn20)(type Legacy)(uri ${KIPRJMOD}/mcp2515-qfn20.lib)(options "")(descr ""))
+  (lib (name chum-bucket)(type Legacy)(uri "D:/AUV Capstone/AUV-Senior-Design/Frank/chum-bucket/PCB/chum-bucket.lib")(options "")(descr ""))
+  (lib (name CD4043BDR)(type Legacy)(uri ${KIPRJMOD}/CD4043BDR.lib)(options "")(descr ""))
+  (lib (name LM5106SD)(type Legacy)(uri ${KIPRJMOD}/LM5106SD.lib)(options "")(descr ""))
+  (lib (name WPT_TX-rescue)(type Legacy)(uri ${KIPRJMOD}/WPT_TX-rescue.lib)(options "")(descr ""))
+)

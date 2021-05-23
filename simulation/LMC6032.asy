@@ -1,0 +1,30 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 64 0 -32 48
+LINE Normal -32 -48 64 0
+LINE Normal -32 48 -32 -48
+TEXT -26 -17 Left 1 +
+TEXT -25 15 Left 2 -
+TEXT -5 -22 Left 0 V+
+TEXT -3 22 Left 0 V-
+TEXT 32 -1 Left 0 OUT
+WINDOW 0 18 -44 Bottom 2
+WINDOW 3 15 57 Top 2
+SYMATTR Value LMC6032
+SYMATTR Prefix X
+SYMATTR ModelFile D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\lib\LMC6032.MOD
+PIN -32 -16 NONE 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN -32 16 NONE 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN 0 -32 NONE 8
+PINATTR PinName 99
+PINATTR SpiceOrder 3
+PIN 0 32 NONE 8
+PINATTR PinName 50
+PINATTR SpiceOrder 4
+PIN 64 0 NONE 8
+PINATTR PinName 28
+PINATTR SpiceOrder 5
