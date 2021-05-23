@@ -72,6 +72,9 @@ The system was tested with surpising results. At a gap distance of about 1-2mm, 
 
 Another interesting outcome was shown in the thermal images during testing. The hottest components in the system were the series capacitors, reaching upwards of 70C degrees after 5 mins of operation. No heatsink or airflow meant that these are probably worst case numbers, but still perhaps the capacitors could be underspec'd for the application. Any ideas on how to decrease their losses would be helpful! 
 
+![capacitor_thermals](https://user-images.githubusercontent.com/32495259/119279590-426a7c80-bc07-11eb-95e8-bb5e12374c14.PNG)
+
+
 ### To Be Continued...
 More testing will be completed soon! An efficiency vs coil gap size graph will be completed, as well as efficiency for different delievered powers, and perhaps some frequency tuning. Safety features will also be verified such as overcurrent protection on the TX board and overvoltage protection on the RX board.
 
