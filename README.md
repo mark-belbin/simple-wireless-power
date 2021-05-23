@@ -20,16 +20,20 @@ However, since a lot of work was already being placed into research and simulati
 The system consists of a transmitter (TX) PCB and a reciever (RX) PCB. Both are 4 layer 1oz copper boards that are 100x45mm. The designs were completed using KiCAD EDA (http://kicad-pcb.org/), a free and open source PCB design software that is highly recommended. 
 
 ### TX Board
-The transmitter board's primary purpose is to take a DC input voltage and pass it through a full bridge inverter to create a high frequency sinusoidal voltage. This sinusoidal voltage passes through the compensating capacitors and transmitter coil, and creates an alternating magnetic field that couples to the reciever coil. The H-Bridge is designed around an operating point of 24VDC input, 100kHz switching frequency, and up to 150W of transfer power. The main limiter for power transfer is the rated voltage and current of the coils and compensating capacitors. The MOSFETs of the H-Bridge are over-speced to minimize losses. 
+The transmitter board's primary purpose is to take a DC input voltage and pass it through a full bridge inverter to create a high frequency sinusoidal voltage. This sinusoidal voltage passes through the compensating capacitors and transmitter coil, and creates an alternating magnetic field that couples to the reciever coil. The H-Bridge is designed around an operating point of 24VDC input, 100kHz switching frequency, and up to 150W of transfer power. The main limiter for power transfer is the rated voltage and current of the coils and compensating capacitors. The MOSFETs of the H-Bridge are over-speced to minimize losses. Short circuit protection circuitry is included on the TX board, since if the TX coil is open-loaded during operation it will appear as a short to the input power supply.
 
 ![TX Board](https://user-images.githubusercontent.com/32495259/119278773-0bde3300-bc02-11eb-87d0-157e233e9202.PNG)
 
 The TX board also has an embedded SAMD21 microntroller which generates the nessecary PWM signal for the gate drivers. Further, the board includes a CAN controller and transceiver so that it could potentially be commanded on/off and relay power transfer telemetry to a remote control computer via CANBus.
 
+![TX Schematic](https://user-images.githubusercontent.com/32495259/119279338-a4c27d80-bc05-11eb-9b8b-24d108d0815e.PNG)
+
 ### RX Board
 The RX board is much simpler than the TX board. It has no microcontroller, and uses passive schottky diodes in a full bridge rectifier configuration to convert the recieved AC voltage back to a usable DC voltage. An simple overvoltage protection scheme is incorporated in the RX board to prevent an overvoltage event downstream. A schmitt trigger circuit watches the output voltage, and if it is too high, connects the output to a bank of bleeder resistors. The extra load on the output subsequently draws down the voltage before it reaches a harmful level. 
                                                                                    
 ![RX Board](https://user-images.githubusercontent.com/32495259/119278781-13054100-bc02-11eb-832a-217c8b096a45.PNG)
+
+![RX Schematic](https://user-images.githubusercontent.com/32495259/119279342-a9873180-bc05-11eb-946f-feee2292f1fa.PNG)
 
 ### Key Components
 
