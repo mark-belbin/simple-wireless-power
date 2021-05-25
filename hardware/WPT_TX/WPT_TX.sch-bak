@@ -5,9 +5,9 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Wireless Charger TX Board"
-Date "2020-11-08"
-Rev "001"
-Comp "AUV Capstone"
+Date "2021-05-24"
+Rev "v1.1"
+Comp "AUV Capstone Project"
 Comment1 "Mark Belbin"
 Comment2 ""
 Comment3 ""
@@ -2388,8 +2388,6 @@ Wire Wire Line
 	2525 7075 2525 7000
 Text Label 2750 6700 2    50   ~ 0
 ISEN
-Text Label 7700 7900 0    50   ~ 0
-ISEN
 $Comp
 L WPT_TX-rescue:LMC6082-Amplifier_Operational U5
 U 3 1 60033302
@@ -2925,17 +2923,15 @@ Wire Wire Line
 	5225 3950 5225 3725
 Wire Wire Line
 	5225 4300 5225 4250
-Wire Wire Line
-	5225 4600 5225 4625
 $Comp
 L WPT_TX-rescue:GND-power #PWR040
 U 1 1 60543B6B
-P 5225 4625
-F 0 "#PWR040" H 5225 4375 50  0001 C CNN
-F 1 "GND" H 5230 4452 50  0000 C CNN
-F 2 "" H 5225 4625 50  0001 C CNN
-F 3 "" H 5225 4625 50  0001 C CNN
-	1    5225 4625
+P 5225 5075
+F 0 "#PWR040" H 5225 4825 50  0001 C CNN
+F 1 "GND" H 5230 4902 50  0000 C CNN
+F 2 "" H 5225 5075 50  0001 C CNN
+F 3 "" H 5225 5075 50  0001 C CNN
+	1    5225 5075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3106,33 +3102,6 @@ F 3 "" H 5675 6800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5675 6750 5675 6800
-Wire Wire Line
-	4175 6700 4175 6875
-$Comp
-L WPT_TX-rescue:GND-power #PWR034
-U 1 1 60930002
-P 4175 7225
-F 0 "#PWR034" H 4175 6975 50  0001 C CNN
-F 1 "GND" H 4175 7075 50  0000 C CNN
-F 2 "" H 4175 7225 50  0001 C CNN
-F 3 "" H 4175 7225 50  0001 C CNN
-	1    4175 7225
-	1    0    0    -1  
-$EndComp
-$Comp
-L WPT_TX-rescue:R_US-Device R10
-U 1 1 60931174
-P 4175 7025
-F 0 "R10" H 4300 7075 50  0000 C CNN
-F 1 "10k" H 4300 6975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4215 7015 50  0001 C CNN
-F 3 "~" H 4175 7025 50  0001 C CNN
-F 4 "RHM10KDCT-ND" H 4175 7025 50  0001 C CNN "Digikey"
-	1    4175 7025
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4175 7175 4175 7225
 $Comp
 L WPT_TX-rescue:R_US-Device R16
 U 1 1 60963245
@@ -3380,8 +3349,6 @@ Text Label 8900 1950 0    50   ~ 0
 HS_2
 Text Label 8025 1175 0    50   ~ 0
 HD
-Text Label 11775 3975 2    50   ~ 0
-HD
 Wire Wire Line
 	11525 4375 11875 4375
 Text Label 12125 4375 2    50   ~ 0
@@ -3604,18 +3571,6 @@ F 3 "" H 4725 4625 50  0001 C CNN
 	1    4725 4625
 	1    0    0    -1  
 $EndComp
-$Comp
-L WPT_TX-rescue:R_US-Device R9
-U 1 1 616EAE40
-P 4725 4450
-F 0 "R9" H 4850 4425 50  0000 C CNN
-F 1 "1k" H 4850 4525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4765 4440 50  0001 C CNN
-F 3 "~" H 4725 4450 50  0001 C CNN
-F 4 "RHM1.0KDCT-ND" H 4725 4450 50  0001 C CNN "Digikey"
-	1    4725 4450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4950 3675 4950 3725
 Wire Wire Line
@@ -3696,7 +3651,7 @@ $Comp
 L WPT_TX-rescue:C_Small-Device C24
 U 1 1 61B822E7
 P 11875 4125
-F 0 "C24" H 11675 4175 50  0000 L CNN
+F 0 "C24" H 11625 4175 50  0000 L CNN
 F 1 "33n" H 11625 4075 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 11875 4125 50  0001 C CNN
 F 3 "~" H 11875 4125 50  0001 C CNN
@@ -3762,8 +3717,6 @@ F 4 "LM5106SD/NOPBCT-ND" H 13925 4475 50  0001 C CNN "Digikey"
 	1    13925 4475
 	1    0    0    -1  
 $EndComp
-Text Label 14675 3975 2    50   ~ 0
-HD
 Wire Wire Line
 	14425 4375 14775 4375
 Text Label 15025 4375 2    50   ~ 0
@@ -4672,4 +4625,114 @@ Wire Notes Line
 	2800 9900 1050 9900
 Wire Notes Line
 	1050 9900 1050 9000
+Wire Wire Line
+	4175 6700 4175 6875
+$Comp
+L WPT_TX-rescue:R_US-Device R10
+U 1 1 60931174
+P 4175 7025
+F 0 "R10" H 4300 7075 50  0000 C CNN
+F 1 "10k" H 4300 6975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4215 7015 50  0001 C CNN
+F 3 "~" H 4175 7025 50  0001 C CNN
+F 4 "RHM10KDCT-ND" H 4175 7025 50  0001 C CNN "Digikey"
+	1    4175 7025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4175 7175 4175 7225
+$Comp
+L WPT_TX-rescue:GND-power #PWR034
+U 1 1 60930002
+P 4175 7225
+F 0 "#PWR034" H 4175 6975 50  0001 C CNN
+F 1 "GND" H 4175 7075 50  0000 C CNN
+F 2 "" H 4175 7225 50  0001 C CNN
+F 3 "" H 4175 7225 50  0001 C CNN
+	1    4175 7225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 8300 6625 8225
+Wire Wire Line
+	6625 8700 6625 8650
+Wire Wire Line
+	6625 9000 6625 9050
+$Comp
+L WPT_TX-rescue:GND-power #PWR?
+U 1 1 60B7C0DE
+P 6625 9050
+F 0 "#PWR?" H 6625 8800 50  0001 C CNN
+F 1 "GND" H 6625 8900 50  0000 C CNN
+F 2 "" H 6625 9050 50  0001 C CNN
+F 3 "" H 6625 9050 50  0001 C CNN
+	1    6625 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L WPT_TX-rescue:R_US-Device R?
+U 1 1 60B7C0ED
+P 6625 8450
+F 0 "R?" H 6525 8525 50  0000 C CNN
+F 1 "10k" H 6500 8425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6665 8440 50  0001 C CNN
+F 3 "~" H 6625 8450 50  0001 C CNN
+F 4 "RHM10KDCT-ND" H 6625 8450 50  0001 C CNN "Digikey"
+	1    6625 8450
+	-1   0    0    1   
+$EndComp
+Connection ~ 6625 8650
+Wire Wire Line
+	6625 8650 6625 8600
+Wire Wire Line
+	6950 8650 6950 7900
+Wire Wire Line
+	6950 7900 7350 7900
+Wire Wire Line
+	6625 8650 6950 8650
+Connection ~ 7350 7900
+Wire Wire Line
+	6625 8225 6425 8225
+$Comp
+L WPT_TX-rescue:R_US-Device R?
+U 1 1 60C2E8D1
+P 6625 8850
+F 0 "R?" H 6525 8925 50  0000 C CNN
+F 1 "10k" H 6500 8825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6665 8840 50  0001 C CNN
+F 3 "~" H 6625 8850 50  0001 C CNN
+F 4 "RHM10KDCT-ND" H 6625 8850 50  0001 C CNN "Digikey"
+	1    6625 8850
+	-1   0    0    1   
+$EndComp
+Text Label 6425 8225 0    50   ~ 0
+ISEN
+$Comp
+L WPT_TX-rescue:R_US-Device R?
+U 1 1 60C6C779
+P 4725 4450
+F 0 "R?" H 4875 4425 50  0000 C CNN
+F 1 "2k" H 4850 4525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4765 4440 50  0001 C CNN
+F 3 "~" H 4725 4450 50  0001 C CNN
+F 4 "541-2790-1-ND" H 4725 4450 50  0001 C CNN "Digikey"
+	1    4725 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L WPT_TX-rescue:R_US-Device R?
+U 1 1 60CA7F5A
+P 5225 4825
+F 0 "R?" H 5375 4800 50  0000 C CNN
+F 1 "2k" H 5350 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5265 4815 50  0001 C CNN
+F 3 "~" H 5225 4825 50  0001 C CNN
+F 4 "541-2790-1-ND" H 5225 4825 50  0001 C CNN "Digikey"
+	1    5225 4825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5225 4600 5225 4675
+Wire Wire Line
+	5225 5075 5225 4975
 $EndSCHEMATC
